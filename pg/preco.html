@@ -33,7 +33,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 </nav>
-	
+
 <!-- DROP DOWN MENU dinamico-->
 
     <div class="collapse" id="Batatas">
@@ -67,7 +67,7 @@
     </div>
     <div class="col">
      <!--2º LINHA DE CIMA ( IMAGEM Nº2)-->
-    
+
       <div class="card" style="width: 18rem;">
         <img src="../img/2.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -81,7 +81,7 @@
                               <!-- CAIXAS DO MEIO-->
 
   <div class="alert alert-light" role="alert">
-      <h3 > Escolhe o seu Plano de Férias</h3>  
+      <h3 > Escolhe o seu Plano de Férias</h3>
 </div>
 
 <!-- 1º LINHA COM 3 COLUNAS-->
@@ -95,6 +95,13 @@
            <div class="card-header">Dias na Praia</div>
             <div class="card-body text-secondary">
             <h5 class="card-title">Praia Grande</h5>
+
+                  <!--preço para as ferias na PRAIA-->
+
+                  <p class="card-text"> Férias de autocarro:<b> <span id="PA"></span>€</b></p>
+                  <p class="card-text"> Férias de carro:<b> <span id="PC"></span>€</b></p>
+                  <p class="card-text"> Férias de avião:<b> <span id="PV"></span>€</b></p>
+
             <p class="card-text">Poderá passar dias grandes de férias na Praia.</p>
          </div>
          </div>
@@ -108,6 +115,7 @@
            <div class="card-header">Dias no Campo</div>
             <div class="card-body text-secondary">
             <h5 class="card-title">Quinta da Atalaia</h5>
+
             <p class="card-text">Poderá passar os dias com festas todas as noites...</p>
          </div>
          </div>
@@ -120,17 +128,23 @@
            <div class="card-header">Dias nas Ilhas</div>
             <div class="card-body text-secondary">
             <h5 class="card-title">Madeira</h5>
+            <!--preço para as ferias na ilha-->
+
+                  <p class="card-text"> Férias de autocarro:<b> <span id="IA"></span>€</b></p>
+                  <p class="card-text"> Férias de carro:<b> <span id="IC"></span>€</b></p>
+                  <p class="card-text"> Férias de avião:<b> <span id="IV"></span>€</b></p>
+
             <p class="card-text">Aproveita os dias na Ilha da Madeira</p>
          </div>
          </div>
     </div>
     </div>
- 
+
 
         <!---CAIXA DE BAIXO-->
         <!-- 2 LINHA COM 3 COLUNAS-->
 
-         
+
     <div class="alert alert-light" role="alert">
      <h2> MAIS INFORMAÇÕES</h2>
      </div>
@@ -140,10 +154,17 @@
                 <!--linha de baixo 1-->
 
                     <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                     <div class="card-header">Header</div>
+                     <div class="card-header">Campo</div>
                       <div class="card-body text-secondary">
-                      <h5 class="card-title">Secondary card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Noites no Campo</h5>
+
+                <!--preço para as ferias no campo-->
+
+                  <p class="card-text"> Férias de autocarro:<b> <span id="CA"></span>€</b></p>
+                  <p class="card-text"> Férias de carro:<b> <span id="CC"></span>€</b></p>
+                  <p class="card-text"> Férias de avião:<b> <span id="CV"></span>€</b></p>
+
+                      <p class="card-text">Passe umas férias no sossego do campo, relaxe e aproveite a sua estadia na nossa casa de campo.</p>
                    </div>
                    </div>
 
@@ -153,10 +174,10 @@
        <!--linha de baixo 2-->
 
           <div class="card border-secondary mb-3" style="max-width: 18rem;">
-           <div class="card-header">Header</div>
+           <div class="card-header">Montanhas</div>
             <div class="card-body text-secondary">
-            <h5 class="card-title">Secondary card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Nos altos</h5>
+            <p class="card-text">Venha exprimentar este estilo de viver nos altos, aproveite o que a montanha tem para lhe dar.</p>
          </div>
          </div>
     </div>
@@ -189,10 +210,13 @@
   		<h4> @Copy- Nº 21572 - Maria Antunes</h4>
   	</div>
   </footer>
-  
+
 <!-- LINKS DO JAVA SCRIPT-->
 
 <script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
+
+<script src="API_JSON.js"></script>
 <script src="../bootstrap/js/popper.min.js"></script>
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 
